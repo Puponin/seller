@@ -1,1 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная</title>
+    <!-- ================ css ===================== -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+        <!-- ================ header ================ -->
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <!-- ================ logo and menu ================ -->
+                <div class="navbar__menu">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/images/logo.png" alt=""></a>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="about.html">О нас</a></li>
+                            <li><a href="blog.html">Блог</a></li>
+                            <li><a href="help.html">Помощь</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- ================ end logo and menu ================ -->
+                <!-- ================ basket and tongues ================ -->
+                <div class="navbar__buy">
+                    <div class="basket">
+                        <div class="amount">
+                            <span>2</span>
+                        </div>
+                        <div class="money">
+                            <a href="#">В корзине</a>
+                            <span>1 230 000 сум</span>
+                        </div>
+                    </div>
+                    <div class="lang">
+                        <a href="#" class="active">Ru</a>
+                        <a href="#">O'z</a>
+                    </div>
+                </div>
+                <!-- ================ end basket and tongues ================ -->
+            </div>
+            <div class="come-in">
+                <div class="button">
+                    <!-- ================ button categories ================ -->
+                    <div class="button__categories">
+                        <div class="burger-button" id="burger_btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="content" id="menuContent">
+                            <ul>
+                                <li><a href="#">Техника и электроника</a></li>
+                                <li><a href="#">Строительство и ремонт</a></li>
+                                <li><a href="#">Дом и сад</a></li>
+                                <li><a href="#">Одежда, обувь, аксессуары</a></li>
+                                <li><a href="#">Красота и здоровье</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ================ end button categories ================ -->
+                    <!-- ================ button come in ================ -->
+                    <div class="button__come-in">
+                        <button class="arrow">Войти</button>
+                    </div>
+                    <!-- ================ end button come in ================ -->
+                </div>
+                <!-- ================ come in form ================ -->
+                <div class="come-in__form">
+                    <form action="" method="">
+                        <dt id="nickname-label">
+                            <label for="nickname">Имя пользователя</label>
+                        </dt>
+                        <dd id="nickname-element">
+                            <input type="text" id="username" name="">
+                        </dd>
+                        <dt id="password-label">
+                            <label for="password">Пароль</label>
+                        </dt>
+                        <dd id="password-element">
+                            <input type="password" id="password" name="">
+                        </dd>
+                        <div class="checkbox">
+                            <dt id="remember-label">
+                                <label for="remember">Запомнить меня</label>
+                            </dt>
+                            <dd id="remember-element">
+                                <input type="checkbox" id="remember" name="">
+                            </dd>
+                        </div>
+                        <div class="submit">
+                            <dd id="submit-element">
+                                <input type="submit" id="submit" name="" value="Войти">
+                            </dd>
+                        </div>
+                        <div class="links">
+                            <a href="#">Забыли пароль?</a>
+                            <a href="#">Регистрация</a>
+                        </div>
+                    </form>
+                </div>
+                <!-- ================ end come in form ================ -->
+            </div>
+            <div class="search">
+                <form action="" method="">
+                    <input type="text" placeholder="Поиск по товарам">
+                    <input type="submit" value="Найти">
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- ================ end header ================ -->
+        <!-- ================ slider ===================== -->
+    <div class="slider">
+        <div class="container">
+            <div class="slides">
+                <!-- ================ first slide ===================== -->
+                <div class="slides__slide active">
+                    <img src="img/images/slider_img1.jpg" alt="">
+                    <h2>Продавать с нами, легче.</h2>
+                </div>
+                <!-- ================ end first slide ===================== -->
+
+                <!-- ================ second slide ===================== -->
+                <div class="slides__slide">
+                    <img src="img/images/slider_img2.jpg" alt="">
+                    <h2>Seller - это бесплатная доска объявлений <br><span>Работающая на рынке Узбекистана более 5
+                            лет.</span></h2>
+                </div>
+                <!-- ================ end second slide ===================== -->
+
+                <!-- ================ third slide ===================== -->
+                <div class="slides__slide">
+                    <img src="img/images/slider_img3.jpg" alt="">
+                    <h2>Психология продаж: <br>Как продавать что угодно и кому угодно?</h2>
+                </div>
+                <!-- ================ end third slide ===================== -->
+
+                <!-- ================ fourth slide ===================== -->
+                <div class="slides__slide">
+                    <img src="img/images/slider_img4.jpg" alt="">
+                    <h2><span>Мы гарантируем безопасность ваших личных данных.</span></h2>
+                </div>
+                <!-- ================ end fourth slide ===================== -->
+
+                <!-- ================ fifth slide ===================== -->
+                <div class="slides__slide">
+                    <img src="img/images/slider_img5.jpg" alt="">
+                    <h2>У нас хорошая, сплоченная, молодая команда</h2>
+                </div>
+                <!-- ================ end fifth slide ===================== -->
+
+                <!-- ================ indicators ===================== -->
+                <ul class="mark">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <!-- ================ end indicators ===================== -->
+            </div>
+        </div>
+    </div>
+    <!-- ================ end slider ===================== -->
+    <!-- ================ control-buttons ===================== -->
+    <div class="control">
+        <div class="container">
+            <div class="control-buttons">
+                <div class="row">
+                    <div class="button">
+                        <a href="#">Начать продавать</a>
+                    </div>
+                    <div class="button">
+                        <a href="#">Сделать покупку</a>
+                    </div>
+                    <div class="store-links">
+                        <a href="#" class="google-play">Google play</a>
+                        <a href="#" class="apple">App Store</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================ end control-buttons ===================== -->
+    <!-- ================ new-goods ===================== -->
+    <section class="new-goods">
+        <div class="container">
+            <h2>Новые товары на сайте</h2>
+            <div class="goods-list active">
+    <div class="row">
+        <div class="product">
+            <img src="img/images/product_img1.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Xiaomi Redmi 5 32GB <br>64 GB</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img2.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Корпус компьютера алюминиевый ASUS с подсветкой</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img3.jpg" alt="">
+            <div class="product__info">
+                <p>80 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Фотоаппарат Nikon D800, объектив с автофокусом и стабилизацией.</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img4.png" alt="">
+            <div class="product__info">
+                <p>2 400 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Лазерный принтер Canon i-Sensys MF2250, цветной.</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img1.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Xiaomi Redmi 5 32GB <br>64 GB</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img2.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Корпус компьютера алюминиевый ASUS с подсветкой</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img3.jpg" alt="">
+            <div class="product__info">
+                <p>80 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Фотоаппарат Nikon D800, объектив с автофокусом и стабилизацией.</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img4.png" alt="">
+            <div class="product__info">
+                <p>2 400 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Лазерный принтер Canon i-Sensys MF2250, цветной.</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img1.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Xiaomi Redmi 5 32GB <br>64 GB</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img2.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Корпус компьютера алюминиевый ASUS с подсветкой</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img3.jpg" alt="">
+            <div class="product__info">
+                <p>80 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Фотоаппарат Nikon D800, объектив с автофокусом и стабилизацией.</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img4.png" alt="">
+            <div class="product__info">
+                <p>2 400 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Лазерный принтер Canon i-Sensys MF2250, цветной.</a>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="show-more"><a href="#">Показать ещё товары</a></div>
+        </div>
+    </section>
+    <!-- ================ end new-goods ===================== -->
+    <!-- ================ popular-goods ===================== -->
+    <section class="popular-goods">
+        <div class="container">
+            <h2>Самые покумаемые товары</h2>
+            <div class="goods-list active">
+    <div class="row">
+        <div class="product">
+            <img src="img/images/product_img1.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Xiaomi Redmi 5 32GB <br>64 GB</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img2.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Корпус компьютера алюминиевый ASUS с подсветкой</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img3.jpg" alt="">
+            <div class="product__info">
+                <p>80 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Фотоаппарат Nikon D800, объектив с автофокусом и стабилизацией.</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img4.png" alt="">
+            <div class="product__info">
+                <p>2 400 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Лазерный принтер Canon i-Sensys MF2250, цветной.</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img1.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Xiaomi Redmi 5 32GB <br>64 GB</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img2.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Корпус компьютера алюминиевый ASUS с подсветкой</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img3.jpg" alt="">
+            <div class="product__info">
+                <p>80 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Фотоаппарат Nikon D800, объектив с автофокусом и стабилизацией.</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img4.png" alt="">
+            <div class="product__info">
+                <p>2 400 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Лазерный принтер Canon i-Sensys MF2250, цветной.</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img1.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Xiaomi Redmi 5 32GB <br>64 GB</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img2.png" alt="">
+            <div class="product__info">
+                <p>1 200 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Корпус компьютера алюминиевый ASUS с подсветкой</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img3.jpg" alt="">
+            <div class="product__info">
+                <p>80 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Фотоаппарат Nikon D800, объектив с автофокусом и стабилизацией.</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/images/product_img4.png" alt="">
+            <div class="product__info">
+                <p>2 400 000</p>
+                <span class="arrow-alt"></span>
+                <a href="#">Лазерный принтер Canon i-Sensys MF2250, цветной.</a>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="show-more"><a href="#">Показать ещё товары</a></div>
+        </div>
+    </section>
+    <!-- ================ end popular-goods ===================== -->
+    <!-- ================ questions ===================== -->
+    <section class="questions">
+        <div class="container">
+            <h3>Частые вопросы</h3>
+            <div class="questions-list">
+                <div class="row">
+                    <div class="category seller">
+                        <h2>Продавцам</h2>
+                        <ul>
+                            <li><a href="#">Правила к публикациям</a></li>
+                            <li><a href="#">Политика конфиденциальности</a></li>
+                        </ul>
+                    </div>
+                    <div class="category buyer">
+                        <h2>Покупателям</h2>
+                        <ul>
+                            <li><a href="#">Как покупать</a></li>
+                            <li><a href="#">Как оставить отзыв</a></li>
+                        </ul>
+                    </div>
+                    <div class="category contract">
+                        <ul>
+                            <li><a href="#">Пользовательское соглашение</a></li>
+                            <li><a href="#">Правила пользования сайтом</a></li>
+                        </ul>
+                    </div>
+                    <div class="category ad">
+                        <h2>Бесплатная доска объявлений</h2>
+                        <ul>
+                            <li><a href="#">О компании seller.uz</a></li>
+                            <li>Телефон: +998 71 200-56-65</li>
+                        </ul>
+                    </div>
+                    <div class="category payment">
+                        <h2>Бесплатная доска объявлений</h2>
+                        <div class="payment__type">
+                            <ul>
+                                <li><a href="#">Наличные</a></li>
+                                <li><a href="#">MBANK</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">UzCard</a></li>
+                                <li><a href="#">Click</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">PayMe</a></li>
+                                <li><a href="#">Upay.uz</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="category network-main">                        
+                        <h2>Социальные сети seller.uz</h2>
+                        <ul>
+                            <li>Телеграм: <a href="#">@link_telegram</a></li>
+                            <li>Facebook: <a href="#">facebook.com/link</a></li>
+                        </ul>
+                    </div>
+                    <div class="category network">
+                        <ul>
+                            <li>Инстаграм: <a href="#">instagram.com/link</a></li>
+                            <li>Одноклассники: <a href="#">ok.ru/link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================ end questions ===================== -->
+        <!-- ================ footer ===================== -->
+    <footer class="footer">
+        <div class="container">
+            <h2>Все разделы</h2>
+            <div class="row footer-menu">
+                <div class="footer-menu__category">
+                    <ul>
+                        <li><a href="#">Техника и электроника</a></li>
+                        <li><a href="#">Строительство и ремонт</a></li>
+                        <li><a href="#">Дом и сад</a></li>
+                        <li><a href="#">Одежда, обувь, аксессуары</a></li>
+                        <li><a href="#">Красота и здоровье</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu__category">
+                    <ul>
+                        <li><a href="#">Спорт и отдых</a></li>
+                        <li><a href="#">Подарки и хобби</a></li>
+                        <li><a href="#">Печатная продукция</a></li>
+                        <li><a href="#">Авто, мото</a></li>
+                        <li><a href="#">Инструменты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu__category">
+                    <ul>
+                        <li><a href="#">Товары для детей</a></li>
+                        <li><a href="#">Канцтовары</a></li>
+                        <li><a href="#">Украшения и часы</a></li>
+                        <li><a href="#">Канцтовары</a></li>
+                        <li><a href="#">Украшения и часы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu__category">
+                    <ul>
+                        <li><a href="#">Товары для детей</a></li>
+                        <li><a href="#">Канцтовары</a></li>
+                        <li><a href="#">Украшения и часы</a></li>
+                        <li>© Все права защищены</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ================ end footer ===================== -->
+    <!-- =================javascript============== -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
